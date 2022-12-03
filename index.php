@@ -1,3 +1,6 @@
+<?php
+include "inc/header.php"
+?>
 <div class="container">
     <main role="main" class="pb-3">
         <div class="row">
@@ -46,3 +49,7 @@
     </div>
     </main>
 </div>
+
+<?php
+include "inc/footer.php"
+?>
