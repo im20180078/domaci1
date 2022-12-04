@@ -36,7 +36,7 @@ include "inc/header.php"
                                             <span class="text-danger"></span>
                                         </div>
                                         <div class="form-group">
-                                            <button type="submit" id="btn-logic" class="btn btn-primary btn-block">Submit</button>
+                                            <button type="submit" id="btn-login" class="btn btn-primary btn-block">Submit</button>
                                         </div> 
                                     </form>
                                 </section>
