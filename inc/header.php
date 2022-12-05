@@ -24,10 +24,11 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" href="#">sajt</a>
-                <ul class="navbar-nav mr-auto">
-
-                    <li class="nav-item">
+                <?php if(isset($_SESSION['user_id'])): ?>
                     
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        
                     </li>
                     <li class="nav-item">
 
@@ -39,11 +40,12 @@
                     <li class="nav-item">
                     
                     </li>
+                    
                     <li class="nav-item">
                         <button id="btn-logout" type="button" class="nav-link btn btn-link text-dark">Logout</button>
                     </li>
                 </ul>
-
+                <?php endif; ?>
             </div>
         </nav>
     </header>
