@@ -1,3 +1,4 @@
+//login
 $(document).ready(function(){
     $("#btn-login").on("click", function (e){
         e.preventDefault();
@@ -29,3 +30,21 @@ $(document).ready(function(){
         }
     });
 });
+
+
+//logout
+$("#btn-logout").on("click", function(e){
+    e.preventDefault();
+    $.ajax({
+        url: "handler.php",
+        method: "POST",        
+        data: {
+            key: "logout",
+        },
+        success: function(response){
+            if(response === "success"){
+                window.location = "index.php";
+            }
+        },
+    });
+   });
