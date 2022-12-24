@@ -23,11 +23,11 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" href="#">sajt</a>
+                <a class="navbar-brand" href="#">Watched</a>
                 <?php if(isset($_SESSION['user_id'])):?>
                     <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" id="book-list" href="bookList.php">Book List</a>
+                        <a class="nav-link text-dark" id="movie-list" href="movieList.php">Movie List</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="categories.php">Categories</a>

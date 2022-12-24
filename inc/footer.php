@@ -11,6 +11,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/login-logout.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/table.js"></script>
 
 </body>
 </html>

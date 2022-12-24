@@ -1,5 +1,5 @@
 //login
-$(document).ready(function(){
+$(document).ready(function (){
     $("#btn-login").on("click", function (e){
         e.preventDefault();
         const username = $("#username").val();
@@ -19,14 +19,15 @@ $(document).ready(function(){
                 },
                 success: function (response) {
                     $("#response").html(response);
-                    if(response === "success"){
-                        $("#response").addClass("text-success");
-                        window.location = "home.php";
-                    }else{
-                        $("#response").addClass("text-danger");
-                    }
+                   if(response === "success"){
+                      $("#response").addClass("text-success");
+                        window.location = "home.php"; //  = "home.php";
+                   }else{
+                     $("#response").addClass("text-danger");
+                   }
                 },
             });
+
         }
     });
 });
@@ -44,6 +45,7 @@ $("#btn-logout").on("click", function(e){
         success: function(response){
             if(response === "success"){
                 window.location = "index.php";
+               
             }
         },
     });
