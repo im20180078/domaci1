@@ -21,7 +21,7 @@ $(document).ready(function (){
                     $("#response").html(response);
                    if(response === "success"){
                       $("#response").addClass("text-success");
-                        window.location = "home.php"; //  = "home.php";
+                        window.location = "home.php";
                    }else{
                      $("#response").addClass("text-danger");
                    }

@@ -137,8 +137,8 @@ function viewOrEdit(movieId, type){
 
 function deleteMovie(movieId){
     swal({
-        title: "Are you sure you want to delete this book?",
-        text: "Oce deleted, you will not be able to recover!",
+        title: "Are you sure you want to delete this movie?",
+        text: "Once deleted, you will not be able to recover!",
         icon: "warning",
         buttons: true,
         dangerMode: true,
