@@ -9,7 +9,7 @@ $(document).ready(function (){
     });
 
     $("#table-manager").on("hidden.bs.modal", function(){
-        $("#show-content").fadeOut();
+        $("#show-content").fadeIn();
         $("#edit-content").fadeIn();
         $("#name").val("");
         $("#language").val("");
@@ -136,7 +136,7 @@ function viewOrEdit(movieId, type){
 }
 
 function deleteMovie(movieId){
-    swal({
+    swal.fire({
         title: "Are you sure you want to delete this movie?",
         text: "Once deleted, you will not be able to recover!",
         icon: "warning",

@@ -44,8 +44,7 @@ $("#btn-logout").on("click", function(e){
         },
         success: function(response){
             if(response === "success"){
-                window.location = "index.php";
-               
+                window.location = "index.php";            
             }
         },
     });
