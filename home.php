@@ -10,7 +10,7 @@
 
 <div class="text-center">
     <h1 class="display-4">WELCOME</h1>
-
+    <img src="img/watched.jpg" alt="pocetna" class="img-responsive" width="700"/>
 </div>
 
 <?php

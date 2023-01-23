@@ -19,7 +19,7 @@ $(document).ready(function (){
                 },
                 success: function (response) {
                     $("#response").html(response);
-                   if(response === "success"){
+                   if(response === "\r\nsuccess"){
                       $("#response").addClass("text-success");
                         window.location = "home.php";
                    }else{
@@ -30,7 +30,7 @@ $(document).ready(function (){
 
         }
     });
-});
+
 
 
 //logout
@@ -43,9 +43,12 @@ $("#btn-logout").on("click", function(e){
             key: "logout",
         },
         success: function(response){
-            if(response === "success"){
+            if(response === "\r\nsuccess"){
                 window.location = "index.php";            
             }
         },
     });
    });
+
+
+});
